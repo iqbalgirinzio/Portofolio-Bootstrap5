@@ -1,0 +1,61 @@
+nav {
+  background: #242124;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #242124;
+}
+
+#project {
+  background-color: #242124;
+}
+
+.link {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #242124;
+}
+
+.deskripsi {
+  color: white;
+}
+
+.deskripsi a {
+  text-decoration: none;
+  color: cyan;
+}
+
+.deskripsi .bootstrap {
+  color: #6f2cf2;
+}
+
+.btn {
+  background-color: #242124;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+section {
+  padding-top: 5rem;
+}
